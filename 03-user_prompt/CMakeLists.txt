@@ -6,7 +6,7 @@ project(recipe-03 LANGUAGES CXX)
 
 option(USE_LIBRARY "Compile sources into a library" OFF)
 
-include(CMakeDependentOption)
+include(CMakeDependentOption) # 提供 cmake_dependent_option() 进行定义选项
 
 cmake_dependent_option(
   MAKE_STATIC_LIBRARY "Compile sources into a static library" OFF
