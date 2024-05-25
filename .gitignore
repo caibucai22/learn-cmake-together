@@ -63,3 +63,13 @@ install_manifest.txt
 .tags
 .vscode
 .history
+
+/**/nmake
+/**/out*
+/**/win_out
+/**/win
+/**/lib
+/**/bin
+
+.vscode
+.history

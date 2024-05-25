@@ -1,0 +1,7 @@
+
+#include <iostream>
+#include "slib.h"
+void slib()
+{
+  std::cout<<"${version} in slib func\n" <<std::endl;
+}
